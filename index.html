@@ -1,40 +1,58 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Routine
-</title><style>
-body {background-image: linear-gradient(180deg,RED, white);}
+    <title>Get Krutz'd
+    </title><style>
+body {background-image: linear-gradient(180deg,RED, #FF8200);}
 
 .center {
 display: block;
 margin-left: auto;
 margin-right: auto;
 }
-h1    {color: green;
+h1    {color: gold;
 font-family:Times New Roman;
 text-align:center;
 }
 
-h2    {color: green;
+h2    {color: yellow;
 font-family:Times New Roman;
-text-align:center;
+text-align:justify;
 }
 
 p    {color: Black;
 font-family: Times New Roman;
-padding: 30px;
-text-align: center;
+padding: 20px;
+text-align: justify;
 background-color: white;
 box-shadow: 4px 0 2px -2px rgba(0,0,0,0.4);
 font-size: 14px;
 }
 
-
+progress {
+  background-color: darkorange;
+  border: 0;
+  height: 18px;
+  border-radius: 9px;
+}
+progress::-webkit-progress-bar {
+  background-color: black;
+  border: 0;
+  height: 18px;
+  border-radius: 9px;
+}
+progress::-webkit-progress-value {
+  background-color: darkorange;
+  border: 0;
+  height: 18px;
+  border-radius: 9px;
+}
+}
 </style>
 </head>
 <body>
-<h1>Routine</h1>
+<h1>Home</h1>
 <hr>
 
 <p>
@@ -42,21 +60,32 @@ font-size: 14px;
     <a href = "/routine/index.html">Routine</a>---
     <a href = "/diet/index.html">Diet</a>---
 </p>
-<h2>Today's Workout
-</h2>
-<p>2X push ups
-<img src="https://lh4.googleusercontent.com/uOmqd3FQfGSPK30S862zLG4Ntmp5S5WwbPEC4k5o_mugrW4_mhx_E-BvTTcHs8YB7m1gqj4ODJsfJvfq6sdOLIS7eRaj1aGbq6nxDk6O08gVDTrB32kPccIwWqTE04ifFX8bMFfegJM" width="10%" class="" align = "left">
-<img src="https://lh4.googleusercontent.com/uOmqd3FQfGSPK30S862zLG4Ntmp5S5WwbPEC4k5o_mugrW4_mhx_E-BvTTcHs8YB7m1gqj4ODJsfJvfq6sdOLIS7eRaj1aGbq6nxDk6O08gVDTrB32kPccIwWqTE04ifFX8bMFfegJM" width="10%" class="" align = "right">
-</p>
+<h1>Percent Krutz'd</h1>
+<img src="/images/progress_circle.png" alt="Progress" class="center" width="600" height="600">
 
-<h2>Video explanation
-</h2>
+<h2>Water</h2>
 <p>
-    <iframe width = "420" height = "315"
-src="https://www.youtube.com/embed/2cqzMQVaKOM"></iframe><br>
-    "You're not as bad as most people say you are"<br>
-"Call a spade a spade and get the dog-gone job done"<br>-The OG Krutz
+<progress value = "65" max = "100"/>
 </p>
-
+<h2>Routine</h2>
+<p>
+<progress value = "90" max = "100"/>
+</p>
+<h2>Cardio</h2>
+<p>
+<progress value = "85" max = "100"/>
+</p>
+<h2>Calories</h2>
+<p>
+<progress value = "78" max = "100"/>
+</p>
+<h2>Weight</h2>
+<p>
+<progress value = "24" max = "100"/>
+</p>
+<h2>Sleep</h2>
+<p>
+<progress value = "85" max = "100"/>
+</p>
 </body>
 </html>
